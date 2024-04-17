@@ -29,6 +29,18 @@ body {
   left: -37px;
   top: -82px;
 }
+/* Disable text selection */
+.no-select {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Cursor style */
+.no-copy {
+  cursor: default;
+}
 
 .envelope:after {
   content: "";

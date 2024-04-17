@@ -1,22 +1,17 @@
-/* Media query for screens smaller than 768px (standard smartphones) */
+/* For screens smaller than 768px (typical smartphones) */
 @media only screen and (max-width: 768px) {
     .valentines-day {
-      transform: scale(1); /* Adjust scale for smaller screens */
-    }
-  
-    .heart,
-    .front,
-    .text {
-      top: 30px; /* Adjust top position for smaller screens */
+      transform: scale(1); /* Reset scale */
     }
   
     .text {
-      top: 40px; /* Further adjust top position for text */
-      font-size: 12px; /* Decrease font size for smaller screens */
+      font-size: 12px; /* Adjust font size for smaller screens */
+      letter-spacing: 0; /* Reset letter spacing */
+      top: 50px; /* Adjust top position */
     }
   
     .text2 {
-      top: 200px; /* Adjust top position for text2 */
+      font-size: 16px; /* Adjust font size for smaller screens */
     }
   }
   
